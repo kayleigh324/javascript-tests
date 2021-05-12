@@ -12,6 +12,7 @@
     }
 
     Module.prototype.method = function() {
+      Module()
       return this.foo;
     };
 
